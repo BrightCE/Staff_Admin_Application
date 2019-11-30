@@ -1,0 +1,238 @@
+/* 
+    Document   : style
+    Created on : 06-Jun-2013, 20:20:10
+    Author     : Bright Elewendu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+body {
+	margin: 0;
+	padding: 0;
+    }
+a{
+    text-decoration: none;
+    color:inherit;
+}
+a:hover{
+    color:green;
+}
+root {
+    display: block;
+
+}
+#wrapper{
+    border-width:50px 100px 5px 100px;
+    border-color : black;
+    border-style:solid;
+    height:auto;
+    width : auto;
+    background: white;
+    margin :0 auto;
+}
+.tittle{
+    width   : 200px;
+    padding :1px 1px 1px 50px;
+}
+.tittle hr {
+    border: 2px solid green;
+}
+.menu{
+    width   : auto;
+    height  : 50px;
+    margin  : 10px 50px 10px 50px;
+    background:black;
+}
+.menu p{
+    padding     :15px 1px 1px 50px;
+    font-style  :normal;
+    font-family :Verdana, Arial, Helvetica, sans-serif;
+    color       : white;
+    line-height : 125%;
+    word-spacing : 30px;
+    vertical-align: bottom;
+}
+
+.pagetitle{
+    
+    margin-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.loginform{
+    width   :200px;
+    height  :200px;
+    margin  :100px 200px 100px 450px;
+    border  :2px dotted green;
+    padding :15px 1px 1px 30px;
+   
+}
+#footer{
+    border-width:1px 100px;
+    border-color : black;
+    border-style:solid;
+    height:50px;
+    width : auto;
+    background: black;
+    margin :0 auto;
+    }
+    #footer p{
+    padding     :10px 1px 1px 350px;
+    font-style  :normal;
+    font-family :Verdana, Arial, Helvetica, sans-serif;
+    color       : White;
+    line-height : 100%;
+    font-size: 12px;
+}
+.regform{
+    width       : auto;
+    height      : auto;
+    margin      : 10px 50px 50px 50px;
+    border      : 2px dotted green;
+    font-style  : normal;
+    font-family : Verdana, Arial, Helvetica, sans-serif;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.regform table{
+    border      : 0px;
+    text-align : right;
+    font-weight: bold;
+    }
+.regform td{
+    
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    background-position: left center;
+    line-height: 30px;
+    
+}
+.regform hr{
+
+    margin-left: 50px;
+
+    margin-right: 50px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-color: green;
+    border-bottom-color: green;
+    border-left-color: green;
+    border-right-color: green;
+}
+.orderform hr{
+
+    margin-left: 50px;
+
+    margin-right: 50px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-color: green;
+    border-bottom-color: green;
+    border-left-color: green;
+    border-right-color: green;
+}
+.tdleft{
+    text-align:left;
+    font-weight: lighter;
+}
+.orderform{
+    width       : auto;
+    height      : auto;
+    margin      : 10px 50px 50px 50px;
+    border      : 2px dotted green;
+    font-style  : normal;
+    font-family : Verdana, Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+.orderform table{
+    border              : 1px solid green;
+    background-position : center center;
+    text-align          : left;
+    vertical-align      : baseline;
+    line-height         : 20px;
+    border-top-style    : solid;
+    border-bottom-style : solid;
+    border-left-style   : solid;
+    border-right-style  : solid;
+    border-top-width    : 1px;
+    border-bottom-width : 1px;
+    border-left-width   : 1px;
+    border-right-width  : 1px;
+    border-top-color    : green;
+    border-bottom-color : green;
+    border-left-color   : green;
+    border-right-color  : green;
+    margin-top          : 10px;
+    margin-bottom       : 10px;
+    margin-left         : 150px;
+    margin-right        : 10px;
+    padding-top         : 10px;
+    padding-bottom      : 10px;
+    padding-left        : 10px;
+    padding-right       : 10px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-color: green;
+    border-bottom-color: green;
+    border-left-color: green;
+}
+
+.amt{
+    text-align:right;
+}
+#totalBv{
+
+    margin-left: 300px;
+    padding-left: 10px;
+    margin-bottom : 10px;
+}
+.formhead{
+
+    margin-left: 200px;
+    padding-left: 10px;
+   }
+#button{
+    margin-left: 300px;
+    padding-left: 10px;
+}
+.container{
+    margin  : 10px 50px 10px 50px;
+    width   : auto;
+    height  : 300px;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    padding-left: 50px;
+}
+.error {
+    Border : 1px solid red;
+    font-style:italic;
+    font-size:medium;
+    margin-left: 50px;
+    padding-left: 10px;
+    width   : 500px;
+}
